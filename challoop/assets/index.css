@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+    background-image: url(paw.jpg);
+    background-repeat: repeat;
+}
+
+
+h1 { 
+    font-family: system-ui;
+    font-size: 100px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    color: #17bdda;
+}
+
+h2 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI';
+    text-shadow: 0 0 10px #d8ff2b,
+                0 0 20px #d8ff2b,
+                0 0 40px #d8ff2b,
+                0 0 80px #d8ff2b;
+
+}
+
+
+h3{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI';
+    text-shadow: 0 0 10px rgb(73, 238, 238),
+                0 0 20px rgb(73, 238, 238),
+                0 0 40px rgb(73, 238, 238),
+                0 0 80px rgb(73, 238, 238);
+}
+
+h4 {
+    font-size: 20px;
+}
+
+
+/*nav*/
+
+header{
+    position: fixed;
+    background-color: rgba(39, 38, 38, 0);
+    backdrop-filter: blur(30px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div img {
+    width: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(73, 255, 67);
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    padding: 8px;
+    transition: all; 
+    transition-duration: 300ms;
+    border-radius: 1px solid rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(73, 255, 67),
+                0 0 20px rgb(73, 255, 67),
+                0 0 40px rgb(73, 255, 67),
+                0 0 80px rgb(73, 255, 67);
+    border-bottom: 1px solid rgb(47, 248, 255);
+    transition-duration: 300ms;
+    font-size: larger;
+}
+
+
+
+
+/*home*/
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.tagline {
+    font-size: 27px;
+    font-family: system-ui;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    color: #da178c;
+}
+
+
+
+/*form*/
+
+.daftmem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bungkus {
+    border: 5px solid rgb(16, 245, 203);
+    box-shadow: 0 0 50px rgb(3, 203, 248);
+    backdrop-filter: blur(20px);
+    width: 550px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 15px; 
+    align-items: center;
+    color: #ffffff;
+}
+
+.daf1 {
+    line-height: 50px;
+    width: 495px;
+    padding: 5px;
+    background-color: transparent;
+    font-family:'Segoe UI';
+    font-size: 23px;
+    border: 2px solid #03409c;
+    border-radius: 10px;
+    color: white;
+}
+
+.daf1:is(:focus) {
+    border: 4px solid lightgreen;
+    box-shadow: 0 0 30px lightgreen;
+    color: lightgreen;
+    transition: all 0.1s;
+}
+
+
+.box {
+    all: unset;
+    background-color: transparent;
+    border: 5px double rgb(33, 10, 240);
+    color: #ffffff;
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    transition-duration: 300ms;
+    text-align: center;
+}
+
+.box:hover {
+    box-shadow: 0 0 40px rgb(50, 0, 251);
+    background-color: rgb(9, 246, 246);
+    color: black;
+}
+
+
+
+/* list */
+
+.bungkus1 {
+    border: 5px solid rgb(133, 255, 2);
+    box-shadow: 0 0 30px rgb(212, 234, 19);
+    backdrop-filter: blur(40px);
+    width: 850px;
+    padding: 40px 40px 40px 40px;
+    border-radius: 15px; 
+    color: #ffffff;
+    text-align: justify;
+}
+
+.editefek {
+    background-color: transparent;
+    font-style: oblique;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.editefek:hover {
+    color: rgb(246, 242, 8);
+    text-shadow: 0 0 20px rgb(111, 241, 243),
+    0 0 30px rgb(111, 241, 243),
+    0 0 50px rgb(111, 241, 243),
+    0 0 100px rgb(111, 241, 243);
+    transition: all 0.1s;
+}
+
+.delefek {
+    background-color: transparent;
+    font-style: inherit;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.delefek:hover {
+    color: rgb(217, 249, 10);
+    text-shadow: 0 0 10px rgb(234, 23, 19),
+    0 0 20px rgb(234, 23, 19),
+    0 0 40px rgb(234, 23, 19),
+    0 0 80px rgb(234, 23, 19);
+    transition: all 0.1s;
+}
+
+
+
+
+
+/*ads*/
+
+footer {
+    background-color: blue;
+    width: 100%;
+}

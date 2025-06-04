@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(paw.jpg);
+    background-repeat: repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.bungkus {
+    border: 5px solid rgb(3, 247, 28);
+    box-shadow: 0 0 50px rgb(44, 250, 120);
+    backdrop-filter: blur(20px);
+    width: 600px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 15px; 
+    align-items: center;
+    border-radius: 15;
+    color: #ffffff;
+}
+
+.tabel {
+    color: white;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI';
+    text-shadow: 0 0 10px rgb(73, 238, 238),
+                0 0 20px rgb(73, 238, 238),
+                0 0 40px rgb(73, 238, 238),
+                0 0 80px rgb(73, 238, 238);
+}
+
+.ipbox {
+    all: unset;
+    background-color: transparent;
+    font-size: 25px;
+    border: 5px double rgb(22, 233, 99);
+    color: #ffffff;
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    transition-duration: 300ms;
+    text-align: center;
+}
+
+.ipbox:hover {
+    box-shadow: 0 0 60px rgb(255, 255, 255);
+    background-color: rgb(22, 233, 99);
+    color: black;
+}
